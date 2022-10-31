@@ -1,0 +1,124 @@
+.donatus{
+    background-color: rgb(230, 243, 248);
+}
+
+.dons{
+    color: white;
+    padding: 10%;
+    background-image: url(../images/back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.donation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: max-content;
+}
+
+.money, .books{
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    padding: 10%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    margin: 100px;
+
+}
+
+.books{
+    flex: 1;
+    background-image: url(../images/dub22.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.money{
+    flex: 1;
+    background-image: url(../images/mon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.up{
+     padding-bottom: 20px;
+}
+
+.topz{
+    color: turquoise;
+    padding: 13% ;
+    background-image: url(../images/dub1.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moshi{
+    padding: 10%;
+}
+
+.containerz{
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.volu{
+    /* align-self: center;
+    align-items: center;
+    align-content: center;
+    align-tracks: center;
+    margin-left: 300px ;
+    margin-right: 300px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(../images/dub5.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13%;
+    color: black;
+    font-size: large;
+}
+.fara{
+    padding: 40px;
+}
+
+.mission{
+    border: 1px ;
+    border-radius: 10px;
+    background-image: url(../images/back1.png);
+    padding: 13%;
+    color: white;
+    font-size: larger;
+}
+
+.vision{
+    border: 1px ;
+    border-radius: 10px;
+    /* background-image: url(../images/back1.png); */
+    padding: 13%;
+    color: black;
+    font-size: larger;
+}
+
+.values{
+    border: 1px ;
+    border-radius: 10px;
+    background-image: url(../images/back2.png);
+    background-repeat: no-repeat;
+    padding: 13%;
+    color: white;
+    font-size: larger;
+}
